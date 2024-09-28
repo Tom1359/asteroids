@@ -1,9 +1,9 @@
 import pygame
-
+from constants import *
 
 
 def main():
-    print("Starting asteroids!")
+    print(f"Starting asteroids!\nScreen width: {SCREEN_WIDTH}\nScreen height: {SCREEN_HEIGHT}")
 
 
 
