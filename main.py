@@ -38,7 +38,7 @@ def main():
             for b in shots:
                 if b.collide(i):
                     b.kill()
-                    i.kill()
+                    i.split()
 
         screen.fill("black")
         for i in drawable:
